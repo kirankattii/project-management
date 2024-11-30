@@ -1,0 +1,8 @@
+{
+  "/page": "app/page.js",
+  "/priority/urgent/page": "app/priority/urgent/page.js",
+  "/priority/high/page": "app/priority/high/page.js",
+  "/priority/medium/page": "app/priority/medium/page.js",
+  "/priority/low/page": "app/priority/low/page.js",
+  "/priority/backlog/page": "app/priority/backlog/page.js"
+}
