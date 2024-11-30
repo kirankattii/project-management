@@ -33,7 +33,7 @@ app.use('/users', userRoutes)
 app.use('/teams', teamRoutes)
 
 
-const port = process.env.PORT || 5000
-app.listen(port, () => {
+const port = Number(process.env.PORT) || 5000
+app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on port ${port}`)
 })
